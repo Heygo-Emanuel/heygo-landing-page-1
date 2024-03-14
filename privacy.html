@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heygo - Datenschutz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/afz5rhm.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#F6EBDD">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F6EBDD">
+    <meta name="description" content="Der Datenschutz spielt neben dem Wohnen eine zentrale Rolle in unserem Leben.">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-832N2WM9NY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-832N2WM9NY');
+    </script>
+</head>
+    <body class="privacy-page">
+        <!-- Header -->
+        <header>
+            <!-- Left Button -->
+            <button class="header-button-left">
+                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="1.5" y1="1.5" x2="18.5" y2="1.5" stroke="#232323" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="1.5" y1="9.5" x2="18.5" y2="9.5" stroke="#232323" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="1.5" y1="17.5" x2="18.5" y2="17.5" stroke="#232323" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </button>
+
+            <!-- Logo -->
+            <h1>
+                <a class="logo" href="index.html">Heygo</a>
+            </h1>
+
+            <!-- Right Button -->
+            <button class="header-button-right" onclick="redirectToWhatsApp()">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.6429 10.8571H10.8571V17.6429C10.8571 18.0028 10.7142 18.348 10.4596 18.6025C10.2051 18.857 9.85994 19 9.5 19C9.14006 19 8.79487 18.857 8.54035 18.6025C8.28584 18.348 8.14286 18.0028 8.14286 17.6429V10.8571H1.35714C0.997206 10.8571 0.652012 10.7142 0.397498 10.4596C0.142985 10.2051 0 9.85994 0 9.5C0 9.14006 0.142985 8.79487 0.397498 8.54036C0.652012 8.28584 0.997206 8.14286 1.35714 8.14286H8.14286V1.35714C8.14286 0.997206 8.28584 0.652011 8.54035 0.397498C8.79487 0.142984 9.14006 0 9.5 0C9.85994 0 10.2051 0.142984 10.4596 0.397498C10.7142 0.652011 10.8571 0.997206 10.8571 1.35714V8.14286H17.6429C18.0028 8.14286 18.348 8.28584 18.6025 8.54036C18.857 8.79487 19 9.14006 19 9.5C19 9.85994 18.857 10.2051 18.6025 10.4596C18.348 10.7142 18.0028 10.8571 17.6429 10.8571Z" fill="#232323"/>
+                </svg>
+            </button>
+        </header>
+
+    <!-- Sidebar -->
+    <div class="overlay"></div>
+    <nav class="sidebar">
+        <!-- Title -->
+        <p class="sidebar-title">Navigation</p>
+            <ul>
+                <!-- Home -->
+                <li class="sidebar-home">
+                    <a href="index.html">
+                        <section class="sidebar-box-home">
+                            <!-- Logo -->
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16.5" cy="16.5" r="16.5" fill="#007E46"/>
+                                <path d="M17.5 9.32C17.2115 9.11228 16.8606 9 16.5 9C16.1394 9 15.7885 9.11228 15.5 9.32L9.66667 13.52C9.45967 13.669 9.29167 13.8623 9.17595 14.0845C9.06024 14.3066 9 14.5516 9 14.8V22.4C9 22.8243 9.17559 23.2313 9.48816 23.5314C9.80072 23.8314 10.2246 24 10.6667 24H13.9167C14.1598 24 14.3929 23.9073 14.5648 23.7423C14.7368 23.5772 14.8333 23.3534 14.8333 23.12V19.2C14.8333 18.7757 15.0089 18.3687 15.3215 18.0686C15.634 17.7686 16.058 17.6 16.5 17.6C16.942 17.6 17.366 17.7686 17.6785 18.0686C17.9911 18.3687 18.1667 18.7757 18.1667 19.2V23.12C18.1667 23.3534 18.2632 23.5772 18.4352 23.7423C18.6071 23.9073 18.8402 24 19.0833 24H22.3333C22.7754 24 23.1993 23.8314 23.5118 23.5314C23.8244 23.2313 24 22.8243 24 22.4V14.8C24 14.5516 23.9398 14.3066 23.824 14.0845C23.7083 13.8623 23.5403 13.669 23.3333 13.52L17.5 9.32Z" fill="#FDFBF8"/>
+                            </svg>
+                                
+                            <div class="sidebar-modus">
+                                <!-- Title -->                
+                                <h3 class="h3-inter">Home</h3>
+                                <!-- Description -->
+                                <p>Das Wichtigste über Heygo</p>
+                            </div>
+                            
+                            <!-- Checkbox -->
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12.5" cy="12.5" r="11.5" stroke="#CCC2B5" stroke-width="2"/>
+                            </svg>
+                        </section>
+                    </a>
+                </li>
+
+                <!-- Company -->
+                <li class="sidebar-company">
+                    <a href="company.html">
+                        <section class="sidebar-box-company">
+                            <!-- Logo -->
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16.5" cy="16.5" r="16.5" fill="#004397"/>
+                                <path d="M14.2555 16.5118C15.1648 16.5118 16.0369 16.143 16.6799 15.4867C17.3228 14.8303 17.6841 13.94 17.6841 13.0118C17.6841 12.0835 17.3228 11.1933 16.6799 10.5369C16.0369 9.88053 15.1648 9.51178 14.2555 9.51178C13.3462 9.51178 12.4741 9.88053 11.8311 10.5369C11.1881 11.1933 10.8269 12.0835 10.8269 13.0118C10.8269 13.94 11.1881 14.8303 11.8311 15.4867C12.4741 16.143 13.3462 16.5118 14.2555 16.5118ZM23.0174 14.1784C23.0174 14.7973 22.7766 15.3908 22.3479 15.8284C21.9193 16.2659 21.3379 16.5118 20.7317 16.5118C20.1255 16.5118 19.5441 16.2659 19.1154 15.8284C18.6868 15.3908 18.446 14.7973 18.446 14.1784C18.446 13.5596 18.6868 12.9661 19.1154 12.5285C19.5441 12.0909 20.1255 11.8451 20.7317 11.8451C21.3379 11.8451 21.9193 12.0909 22.3479 12.5285C22.7766 12.9661 23.0174 13.5596 23.0174 14.1784ZM14.2555 17.2896C15.774 17.2896 17.1545 17.7624 18.1694 18.4298C18.6776 18.7642 19.1126 19.1586 19.4288 19.5887C19.7389 20.0126 19.9698 20.522 19.9698 21.0672C19.9698 21.6544 19.7031 22.125 19.3115 22.4649C18.942 22.7838 18.4604 22.9907 17.9629 23.133C16.9625 23.4184 15.6391 23.5118 14.2555 23.5118C12.8719 23.5118 11.5484 23.4184 10.5488 23.133C10.0505 22.9907 9.56901 22.7838 9.20025 22.4649C8.8071 22.1258 8.5412 21.6544 8.5412 21.0672C8.5412 20.5212 8.77206 20.0126 9.08215 19.5894C9.39834 19.1586 9.83339 18.7634 10.3416 18.4306C11.3564 17.7617 12.737 17.2896 14.2555 17.2896ZM20.7317 17.2896C21.7374 17.2896 22.6502 17.6287 23.3222 18.107C23.9484 18.5527 24.5412 19.2558 24.5412 20.067C24.5412 20.5236 24.3484 20.9016 24.0551 21.1761C23.7831 21.4312 23.4387 21.5868 23.1073 21.6894C22.4444 21.894 21.5911 21.9562 20.7317 21.9562H20.577C20.6761 21.6856 20.7317 21.3884 20.7317 21.0672C20.7317 20.2972 20.4094 19.6283 20.0383 19.1228C19.6681 18.618 19.1774 18.1739 18.6296 17.8076C19.2803 17.4676 20.0007 17.29 20.7317 17.2896Z" fill="#FDFBF8"/>
+                            </svg>
+
+                            <div class="sidebar-modus">
+                                <!-- Title -->                
+                                <h3 class="h3-inter">Unternehmen</h3>
+                                <!-- Description -->
+                                <p>Wer hinter Heygo steckt</p>
+                            </div>
+                            
+                            <!-- Checkbox -->
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12.5" cy="12.5" r="11.5" stroke="#CCC2B5" stroke-width="2"/>
+                            </svg>
+                        </section>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    <!-- Main -->
+    <main>
+        <section class="privacy-text">
+            <h1>Datenschutzerklärung von Heygo</h1>
+            <h2 class="h2-gelica">Einleitung</h2>
+            <p> Heygo steht für einen frischen und innovativen Ansatz in der Immobilienwelt. Unser Ziel ist es, 
+                den Umgang mit Wohnen und Immobilien einfacher, zugänglicher und transparenter zu gestalten. 
+                Wir sind überzeugt, dass durch Vereinfachung und Demokratisierung ein Wandel in der Art und Weise, 
+                wie Immobilien vermittelt und erlebt werden, möglich ist.</p>
+
+            <p> Die Datenschutzrichtlinie von Heygo ist ein Spiegelbild unserer tiefen Überzeugung, 
+                dass die Erreichung dieses ehrgeizigen Ziels ein umfassendes Verständnis dafür erfordert, 
+                wie unsere Besucher mit unserer Mission interagieren und welches Interesse sie daran haben. 
+                Durch Ihren Besuch auf unserer Website erhalten wir wertvolle Einblicke, die uns dabei helfen, 
+                unsere zukünftigen Produkte nicht nur besser, sondern auch nützlicher für Sie zu gestalten.</p>
+                
+            <p> Wir sind uns bewusst, dass beim Streben nach diesen Zielen der Schutz und die Vertraulichkeit 
+                Ihrer Daten von höchster Bedeutung sind. Daher möchten wir Ihnen in dieser Datenschutzerklärung 
+                transparent darlegen, wie wir mit Ihren personenbezogenen Daten umgehen, welche Daten wir sammeln, 
+                zu welchem Zweck und wie diese Ihre Erfahrung verbessern.</p>
+
+            <h2 class="h2-gelica">Verantwortlich für die Datenverarbeitung</h2>
+            <p>Heygo<br>
+                Regensbergstrasse 182<br>
+                8050 Zürich<br>
+                Schweiz<br>
+                E-Mail: <a href="mailto:go@heygo.ch">go@heygo.ch</a></p>
+
+            <h2 class="h2-gelica">Zweck der Datenverarbeitung</h2>
+            <p> Die Verarbeitung Ihrer personenbezogenen Daten erfolgt zum Zweck der Prüfung der Nachfrage und zur 
+                Verbesserung unseres Angebots. Wir nutzen Google Analytics, um das Nutzungsverhalten auf unserer 
+                Webseite zu analysieren, und bieten einen Button für den direkten Kontakt via WhatsApp an.</p>
+
+            <h2 class="h2-gelica">Art der verarbeiteten Daten</h2>
+            <p> Wir erfassen Daten über Ihre Nutzung unserer Webseite durch Google Analytics, wie z.B. 
+                Zugriffszeiten, besuchte Seiten und die Verweildauer auf der Webseite. Über die WhatsApp-Buttons 
+                können Nutzer direkt Kontakt mit uns aufnehmen, wobei die Übermittlung personenbezogener Daten 
+                direkt über WhatsApp erfolgt und der Datenschutzerklärung von WhatsApp unterliegt.</p>
+
+            <h2 class="h2-gelica">Rechtsgrundlage</h2>
+            <p> Die Verarbeitung Ihrer Daten durch Google Analytics basiert auf unserem berechtigten Interesse 
+                an der Analyse und Optimierung unseres Webangebots gemäß Art. 6 Abs. 1 lit. f der 
+                Datenschutz-Grundverordnung (DSGVO).</p>
+
+            <h2 class="h2-gelica">Empfänger der personenbezogenen Daten</h2>
+            <p> Die durch Google Analytics erfassten Daten können an Google übermittelt werden. Weitere 
+                Datenempfänger gibt es nicht, außer Sie entscheiden sich, uns über WhatsApp zu kontaktieren.</p>
+
+            <h2 class="h2-gelica">Datenübermittlung in Drittländer</h2>
+            <p> Eine Übermittlung von Daten in Länder außerhalb der Schweiz oder der EU/EWR findet nicht statt, 
+                ausgenommen davon sind die Daten, die Google Analytics verarbeitet. Google kann Daten auf Servern 
+                in den USA speichern, wobei entsprechende Datenschutzmaßnahmen gemäß den Standardvertragsklauseln 
+                getroffen werden.</p>
+
+            <h2 class="h2-gelica">Speicherdauer</h2>
+            <p> Die Speicherdauer der über Google Analytics erfassten Daten richtet sich nach den Vorgaben von 
+                Google und wird nach einem durchschnittlichen Zeitraum von 14 Monaten gelöscht, sofern keine 
+                gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+
+            <h2 class="h2-gelica">Rechte der betroffenen Personen</h2>
+            <p> Sie haben das Recht, Auskunft über die von uns verarbeiteten personenbezogenen Daten zu verlangen. 
+                Ferner haben Sie das Recht auf Berichtigung, Löschung, Einschränkung der Verarbeitung, ein 
+                Widerspruchsrecht gegen die Verarbeitung sowie das Recht auf Datenübertragbarkeit. Um diese Rechte 
+                auszuüben, wenden Sie sich bitte an uns unter den oben genannten Kontaktdaten.</p>
+
+            <h2 class="h2-gelica">Freiwilligkeit der Bereitstellung von Daten</h2>
+            <p> Die Bereitstellung Ihrer personenbezogenen Daten erfolgt freiwillig. Ohne die Verwendung von Google 
+                Analytics ist eine Nutzung unserer Webseite eingeschränkt möglich, jedoch kann die Kontaktaufnahme 
+                über WhatsApp ohne Bereitstellung personenbezogener Daten nicht erfolgen.</p>
+
+            <h2 class="h2-gelica">Automatisierte Entscheidungsfindung und Profiling</h2>
+            <p> Eine automatisierte Entscheidungsfindung einschließlich Profiling findet auf unserer Webseite 
+                nicht statt.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-section-logo">
+            <h1>
+                <a class="logo" href="index.html">Heygo</a>
+            </h1>
+            <p class="current-year-desktop">© Heygo</p>
+        </div>
+        <nav class="footer-section-about">
+            <h3 class="h3-gelica">Über uns</h3>
+            <ul>
+                <li><a href="company.html">Unternehmen</a></li>
+                <li><a href="mailto:go@heygo.ch">Kontakt</a></li>
+                <li><a href="privacy.html">Datenschutz</a></li>
+            </ul>
+        </nav>
+        <nav class="footer-section-media">
+            <h3 class="h3-gelica">Community</h3>
+            <ul>
+                <li><a href="https://chat.whatsapp.com/EzIwTBB04Sf8N7vi0BXJIr">WhatsApp</a></li> 
+                <li><a href="https://www.instagram.com/heygo.ch/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/heygo.ch/">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/lets-heygo/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <nav class="footer-section-broadcast">
+            <h3 class="h3-gelica">Broadcast</h3>
+            <p>Erhalte alle News 🗞️</p>
+            <button class="button-2" onclick="redirectToWhatsApp()">Broadcast</button>
+        </nav>
+        <p class="current-year-mobile">© Heygo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heygo - Der Immobilienmarkt von morgen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/afz5rhm.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#F6EBDD">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#F6EBDD">
+    <meta name="description" content="Selber ein Haus verkaufen oder vermieten, ist mit dem frischen und 
+    innovativen Ansatz von Heygo bald möglich.">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-832N2WM9NY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-832N2WM9NY');
+    </script>
+</head>
+    <body class="company-page">
+        <!-- Header -->
+        <header>
+            <!-- Left Button -->
+            <button class="header-button-left">
+                <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="1.5" y1="1.5" x2="18.5" y2="1.5" stroke="#232323" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="1.5" y1="9.5" x2="18.5" y2="9.5" stroke="#232323" stroke-width="3" stroke-linecap="round"/>
+                    <line x1="1.5" y1="17.5" x2="18.5" y2="17.5" stroke="#232323" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </button>
+
+            <!-- Logo -->
+            <h1>
+                <a class="logo" href="index.html">Heygo</a>
+            </h1>
+
+            <!-- Right Button -->
+            <button class="header-button-right" onclick="redirectToWhatsApp()">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.6429 10.8571H10.8571V17.6429C10.8571 18.0028 10.7142 18.348 10.4596 18.6025C10.2051 18.857 9.85994 19 9.5 19C9.14006 19 8.79487 18.857 8.54035 18.6025C8.28584 18.348 8.14286 18.0028 8.14286 17.6429V10.8571H1.35714C0.997206 10.8571 0.652012 10.7142 0.397498 10.4596C0.142985 10.2051 0 9.85994 0 9.5C0 9.14006 0.142985 8.79487 0.397498 8.54036C0.652012 8.28584 0.997206 8.14286 1.35714 8.14286H8.14286V1.35714C8.14286 0.997206 8.28584 0.652011 8.54035 0.397498C8.79487 0.142984 9.14006 0 9.5 0C9.85994 0 10.2051 0.142984 10.4596 0.397498C10.7142 0.652011 10.8571 0.997206 10.8571 1.35714V8.14286H17.6429C18.0028 8.14286 18.348 8.28584 18.6025 8.54036C18.857 8.79487 19 9.14006 19 9.5C19 9.85994 18.857 10.2051 18.6025 10.4596C18.348 10.7142 18.0028 10.8571 17.6429 10.8571Z" fill="#232323"/>
+                </svg>
+            </button>
+        </header>
+
+    <!-- Sidebar -->
+    <div class="overlay"></div>
+    <nav class="sidebar">
+        <!-- Title -->
+        <p class="sidebar-title">Navigation</p>
+            <ul>
+                <!-- Home -->
+                <li class="sidebar-home">
+                    <a href="index.html">
+                        <section class="sidebar-box-home">
+                            <!-- Logo -->
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16.5" cy="16.5" r="16.5" fill="#007E46"/>
+                                <path d="M17.5 9.32C17.2115 9.11228 16.8606 9 16.5 9C16.1394 9 15.7885 9.11228 15.5 9.32L9.66667 13.52C9.45967 13.669 9.29167 13.8623 9.17595 14.0845C9.06024 14.3066 9 14.5516 9 14.8V22.4C9 22.8243 9.17559 23.2313 9.48816 23.5314C9.80072 23.8314 10.2246 24 10.6667 24H13.9167C14.1598 24 14.3929 23.9073 14.5648 23.7423C14.7368 23.5772 14.8333 23.3534 14.8333 23.12V19.2C14.8333 18.7757 15.0089 18.3687 15.3215 18.0686C15.634 17.7686 16.058 17.6 16.5 17.6C16.942 17.6 17.366 17.7686 17.6785 18.0686C17.9911 18.3687 18.1667 18.7757 18.1667 19.2V23.12C18.1667 23.3534 18.2632 23.5772 18.4352 23.7423C18.6071 23.9073 18.8402 24 19.0833 24H22.3333C22.7754 24 23.1993 23.8314 23.5118 23.5314C23.8244 23.2313 24 22.8243 24 22.4V14.8C24 14.5516 23.9398 14.3066 23.824 14.0845C23.7083 13.8623 23.5403 13.669 23.3333 13.52L17.5 9.32Z" fill="#FDFBF8"/>
+                            </svg>
+                                
+                            <div class="sidebar-modus">
+                                <!-- Title -->                
+                                <h3 class="h3-inter">Home</h3>
+                                <!-- Description -->
+                                <p>Das Wichtigste über Heygo</p>
+                            </div>
+                            
+                            <!-- Checkbox -->
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12.5" cy="12.5" r="11.5" stroke="#CCC2B5" stroke-width="2"/>
+                            </svg>
+                        </section>
+                    </a>
+                </li>
+
+                <!-- Company -->
+                <li class="sidebar-company">
+                    <a href="company.html">
+                        <section class="sidebar-box-company">
+                            <!-- Logo -->
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16.5" cy="16.5" r="16.5" fill="#004397"/>
+                                <path d="M14.2555 16.5118C15.1648 16.5118 16.0369 16.143 16.6799 15.4867C17.3228 14.8303 17.6841 13.94 17.6841 13.0118C17.6841 12.0835 17.3228 11.1933 16.6799 10.5369C16.0369 9.88053 15.1648 9.51178 14.2555 9.51178C13.3462 9.51178 12.4741 9.88053 11.8311 10.5369C11.1881 11.1933 10.8269 12.0835 10.8269 13.0118C10.8269 13.94 11.1881 14.8303 11.8311 15.4867C12.4741 16.143 13.3462 16.5118 14.2555 16.5118ZM23.0174 14.1784C23.0174 14.7973 22.7766 15.3908 22.3479 15.8284C21.9193 16.2659 21.3379 16.5118 20.7317 16.5118C20.1255 16.5118 19.5441 16.2659 19.1154 15.8284C18.6868 15.3908 18.446 14.7973 18.446 14.1784C18.446 13.5596 18.6868 12.9661 19.1154 12.5285C19.5441 12.0909 20.1255 11.8451 20.7317 11.8451C21.3379 11.8451 21.9193 12.0909 22.3479 12.5285C22.7766 12.9661 23.0174 13.5596 23.0174 14.1784ZM14.2555 17.2896C15.774 17.2896 17.1545 17.7624 18.1694 18.4298C18.6776 18.7642 19.1126 19.1586 19.4288 19.5887C19.7389 20.0126 19.9698 20.522 19.9698 21.0672C19.9698 21.6544 19.7031 22.125 19.3115 22.4649C18.942 22.7838 18.4604 22.9907 17.9629 23.133C16.9625 23.4184 15.6391 23.5118 14.2555 23.5118C12.8719 23.5118 11.5484 23.4184 10.5488 23.133C10.0505 22.9907 9.56901 22.7838 9.20025 22.4649C8.8071 22.1258 8.5412 21.6544 8.5412 21.0672C8.5412 20.5212 8.77206 20.0126 9.08215 19.5894C9.39834 19.1586 9.83339 18.7634 10.3416 18.4306C11.3564 17.7617 12.737 17.2896 14.2555 17.2896ZM20.7317 17.2896C21.7374 17.2896 22.6502 17.6287 23.3222 18.107C23.9484 18.5527 24.5412 19.2558 24.5412 20.067C24.5412 20.5236 24.3484 20.9016 24.0551 21.1761C23.7831 21.4312 23.4387 21.5868 23.1073 21.6894C22.4444 21.894 21.5911 21.9562 20.7317 21.9562H20.577C20.6761 21.6856 20.7317 21.3884 20.7317 21.0672C20.7317 20.2972 20.4094 19.6283 20.0383 19.1228C19.6681 18.618 19.1774 18.1739 18.6296 17.8076C19.2803 17.4676 20.0007 17.29 20.7317 17.2896Z" fill="#FDFBF8"/>
+                            </svg>
+
+                            <div class="sidebar-modus">
+                                <!-- Title -->                
+                                <h3 class="h3-inter">Unternehmen</h3>
+                                <!-- Description -->
+                                <p>Wer hinter Heygo steckt</p>
+                            </div>
+                            
+                            <!-- Checkbox -->
+                            <svg class="sidebar-checkbox" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12.5" cy="12.5" r="12.5" fill="#007E46"/>
+                                <path d="M9.87292 14.6896L16.2646 8.29792C16.4632 8.09931 16.716 8 17.0229 8C17.3299 8 17.5826 8.09931 17.7812 8.29792C17.9799 8.49653 18.0792 8.7493 18.0792 9.05625C18.0792 9.36319 17.9799 9.61597 17.7812 9.81458L10.6312 16.9646C10.4146 17.1812 10.1618 17.2896 9.87292 17.2896C9.58403 17.2896 9.33125 17.1812 9.11458 16.9646L6.29792 14.1479C6.09931 13.9493 6 13.6965 6 13.3896C6 13.0826 6.09931 12.8299 6.29792 12.6312C6.49653 12.4326 6.74931 12.3333 7.05625 12.3333C7.36319 12.3333 7.61597 12.4326 7.81458 12.6312L9.87292 14.6896Z" fill="#FDFBF8"/>
+                            </svg>
+                        </section>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    <!-- Main -->
+    <main>
+        <!-- Banner Sector-->
+        <section class="company-banner">
+            <div class="company-banner-image">
+                <img src="./media/real-estate-talk.png" alt="Beschreibung des Bildinhalts">
+            </div>
+            <div class="company-banner-description">
+                <h1 class="company-banner-title">Zusammen bringen wir Demokratie in die Immobilienwelt</h1>
+            </div>
+        </section>
+
+        <!-- Vision Sector-->
+        <section class="company-vision">
+            <div class="company-vision-emoji">
+                <p>💡</p>
+            </div>
+            <div class="company-vision-description">
+                <h1 class="company-vision-title">Mission</h1>
+                <p class="company-vision-paragraph">Heygo verbindet Menschen und Orte und wird nicht nur bezahlbaren 
+                    Wohnraum schaffen, sondern auch Zuhause voller Leben und Gemeinschaft. Jeder weltweit erhält die 
+                    Chance, nicht nur Teil von Heygo zu werden, sondern auch Miteigentümer.</p>
+            </div>
+        </section>
+
+        <!-- Go Live Sector -->
+        <section class="company-start">
+            <div class="company-start-emoji">
+                <p>📺</p>
+            </div>
+            <div class="company-start-description">
+                <h1 class="company-start-title">Go Live</h1>
+                <p class="company-start-paragraph">Sommer 2024</p>
+                <button class="button-1" onclick="redirectToWhatsApp()">Warteliste</button>
+            </div>
+        </section>
+
+        <!-- Founder Sector -->
+        <section class="company-founder">
+            <div class="company-founder-title">
+                <h1>Gründer</h1>
+            </div>
+
+            <!-- Founders -->
+            <div class="accordion">
+                <button class="accordion-button">Emanuel Schild
+                    <svg class="accordion-item-svg" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.461831 17.5561C0.153943 17.2601 0 16.8834 0 16.426C0 15.9686 0.153943 15.5919 0.461831 15.296L7.01145 9L0.461831 2.70404C0.153943 2.40807 0 2.03139 0 1.57399C0 1.11659 0.153943 0.73991 0.461831 0.443946C0.769719 0.147981 1.16158 0 1.6374 0C2.11323 0 2.50509 0.147981 2.81298 0.443946L10.5382 7.86996C10.7061 8.03139 10.8253 8.20628 10.8959 8.39462C10.9653 8.58296 11 8.78475 11 9C11 9.21525 10.9653 9.41704 10.8959 9.60538C10.8253 9.79372 10.7061 9.96861 10.5382 10.13L2.81298 17.5561C2.50509 17.852 2.11323 18 1.6374 18C1.16158 18 0.769719 17.852 0.461831 17.5561Z" fill="#232323"/>
+                    </svg>
+                </button>
+                    <div class="accordion-collapse">
+                        <p class="collabse-content">Emanuel ist ein absoluter Praktiker und schon immer hegte er ein 
+                            Interesse für das Wohnen. Seine berufliche Laufbahn begann ohne klare Richtung, und so 
+                            startete er eine Berufslehre als Verkaufsberater für Baumaterialien. Im Laufe der Zeit 
+                            wechselte er in eine Bürotätigkeit und sammelte unter anderem Erfahrungen in 
+                            Buchhaltung, Kundenservice und Personalwesen. Die Durchführung von Besichtigungen von 
+                            Mietflächen entfachte dann sein Interesse für das Wohnen endgültig, was ihn dazu 
+                            brachte, als selbstständiger Makler zu starten. Schnell erkannte er, wie man Abläufe 
+                            einfacher, zugänglicher und transparenter gestalten könnte – und so war die Idee für 
+                            Heygo geboren. Inzwischen ergänzt er seine Branchenkenntnisse mit technologische 
+                            Fähigkeiten, um seinen Traum von einer besseren Immobilienwelt für alle zu ralisieren.</p>
+
+                        <h3 class="h3-gelica">Emanuel's Online Profile</h3>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/emanuel-schild-6810b6176">LinkedIn</a></li>
+                            <li><a href="https://www.instagram.com/emanuel.schild/">Instagram</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="accordion">
+                <button class="accordion-button">Gesucht: Mitgründer
+                    <svg class="accordion-item-svg" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.461831 17.5561C0.153943 17.2601 0 16.8834 0 16.426C0 15.9686 0.153943 15.5919 0.461831 15.296L7.01145 9L0.461831 2.70404C0.153943 2.40807 0 2.03139 0 1.57399C0 1.11659 0.153943 0.73991 0.461831 0.443946C0.769719 0.147981 1.16158 0 1.6374 0C2.11323 0 2.50509 0.147981 2.81298 0.443946L10.5382 7.86996C10.7061 8.03139 10.8253 8.20628 10.8959 8.39462C10.9653 8.58296 11 8.78475 11 9C11 9.21525 10.9653 9.41704 10.8959 9.60538C10.8253 9.79372 10.7061 9.96861 10.5382 10.13L2.81298 17.5561C2.50509 17.852 2.11323 18 1.6374 18C1.16158 18 0.769719 17.852 0.461831 17.5561Z" fill="#232323"/>
+                    </svg>
+                </button>
+                    <div class="accordion-collapse">
+                        <p class="collabse-content">Bei Heygo glauben wir an eine autonome, dynamische Kultur ohne 
+                            Hierarchien: Alle ziehen am gleichen Strang, mit gleichem Gehalt und sind am Unternehmen beteiligt. 
+                            Bei uns entscheidest du, wann und wo du arbeitest - ob am Strand, zu Hause oder im Büro in Zürich 
+                            - Hauptsache, du bist mit dir selbst und der Mission von Heygo im Reinen.</p>
+
+                        <h3 class="h3-gelica">Offene Funktionen</h3>
+                        <ul>
+                            <li><a href="https://wa.me/41795573336?text=Hey,+ich+bin+richtig+gut+in+Web-+und+Mobile-Entwicklung+weil+">Technical Lead</a></li>
+                            <li><a href="https://wa.me/41795573336?text=Hey,+ich+bin+richtig+gut+in+UI+/+UX+Design+weil+">Design Lead</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-section-logo">
+            <h1>
+                <a class="logo" href="index.html">Heygo</a>
+            </h1>
+            <p class="current-year-desktop">© Heygo</p>
+        </div>
+        <nav class="footer-section-about">
+            <h3 class="h3-gelica">Über uns</h3>
+            <ul>
+                <li><a href="company.html">Unternehmen</a></li>
+                <li><a href="mailto:go@heygo.ch">Kontakt</a></li>
+                <li><a href="privacy.html">Datenschutz</a></li>
+            </ul>
+        </nav>
+        <nav class="footer-section-media">
+            <h3 class="h3-gelica">Community</h3>
+            <ul>
+                <li><a href="https://chat.whatsapp.com/EzIwTBB04Sf8N7vi0BXJIr">WhatsApp</a></li> 
+                <li><a href="https://www.instagram.com/heygo.ch/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/heygo.ch/">Facebook</a></li>
+                <li><a href="https://www.linkedin.com/company/lets-heygo/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <nav class="footer-section-broadcast">
+            <h3 class="h3-gelica">Broadcast</h3>
+            <p>Erhalte alle News 🗞️</p>
+            <button class="button-2" onclick="redirectToWhatsApp()">Broadcast</button>
+        </nav>
+        <p class="current-year-mobile">© Heygo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
